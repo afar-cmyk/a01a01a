@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './logo.svg'
+import logo from './logo.gif'
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Bienvenido a <code>01a01</code>, desarrollado en:
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          React
         </a>
       </header>
     </div>
