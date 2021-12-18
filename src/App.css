@@ -7,14 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 1500s linear;
-  }
-}
-
 .App-header {
-  background-color: #300e3a;
+  background-color: #f2f2f2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +19,15 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #993d60;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.texto {
+  color: #2d3f59;
 }
+
+/* .decoraciones {
+  background-image: url('../src/decorations.png');
+  width: 100vw;
+  height: 100vh;
+} */
