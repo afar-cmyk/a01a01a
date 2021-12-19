@@ -15,19 +15,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #993d60;
-}
-
-.texto {
   color: #2d3f59;
 }
 
-/* .decoraciones {
-  background-image: url('../src/decorations.png');
-  width: 100vw;
-  height: 100vh;
-} */
+.App-link {
+  color: #a62a58;
+}
