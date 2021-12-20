@@ -1,6 +1,5 @@
 .main-logo {
   width: 50vw;
-  pointer-events: none;
 }
 
 .main-content {
@@ -18,7 +17,7 @@
   color: #a62a58;
 }
 
-.texto-principal {
+.main-text {
   text-align: justify;
   text-align-last: left;
   margin: 0px 20px 0px 20px;

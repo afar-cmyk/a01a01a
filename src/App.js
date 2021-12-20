@@ -1,11 +1,13 @@
 import React from 'react'
 import { Layout } from 'antd'
 import logo from './assets/logo/logo.svg'
+import logob from './assets/logo/logo_b.svg'
 import './App.css'
 
 const { Content } = Layout
 
 function App() {
+  const [cambioLogo, setCambioLogo] = React.useState()
   return (
     <>
       <Layout>
@@ -14,13 +16,17 @@ function App() {
           {/* <Sider>left sidebar</Sider> */}
           <Content className="main-content">
             <center>
-              <div className="main-logo">
-                <img src={logo} alt="logo" />
+              <div
+                onMouseEnter={() => setCambioLogo(false)}
+                onMouseLeave={() => setCambioLogo(true)}
+                className="main-logo"
+              >
+                <img src={cambioLogo ? logob : logo} alt="logo" />
               </div>
               ¡En desarrollo!
             </center>
             <br />
-            <div className="texto-principal">
+            <div className="main-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet
               varius ante. Pellentesque pretium, risus eu dictum pulvinar, neque nibh
               laoreet mi, aliquet gravida urna sem quis ligula. Nullam quis dui
