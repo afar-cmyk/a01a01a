@@ -10,15 +10,30 @@
   align-items: center;
   justify-content: center;
   font-size: calc(8px + 2vmin);
-  color: #2d3f59;
 }
 
 .link {
   color: #a62a58;
 }
 
-.main-text {
+.text-container {
   text-align: justify;
   text-align-last: left;
   margin: 0px 20px 0px 20px;
+}
+
+span {
+  font-family: 'Anaheim', sans-serif;
+}
+
+h1 {
+  margin-block-start: 16px;
+  margin-block-end: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+strong {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
 }

@@ -23,15 +23,20 @@ function App() {
               >
                 <img src={cambioLogo ? logob : logo} alt="logo" />
               </div>
-              ¡En desarrollo!
             </center>
+            <span>
+              <strong>¡En desarrollo!</strong>
+            </span>
             <br />
-            <div className="main-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet
-              varius ante. Pellentesque pretium, risus eu dictum pulvinar, neque nibh
-              laoreet mi, aliquet gravida urna sem quis ligula. Nullam quis dui
-              malesuada, facilisis nibh eu, volutpat sapien. Nulla tempus ornare
-              purus, vel lobortis mi malesuada maximus.
+            <div className="text-container">
+              <h1>Lorem ipsum dolor</h1>
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit
+                amet varius ante. Pellentesque pretium, risus eu dictum pulvinar,
+                neque nibh laoreet mi, aliquet <strong>gravida</strong> urna sem quis
+                ligula. Nullam quis dui malesuada, facilisis nibh eu, volutpat
+                sapien. Nulla tempus ornare purus, vel lobortis mi malesuada maximus.
+              </span>
             </div>
           </Content>
         </Layout>
