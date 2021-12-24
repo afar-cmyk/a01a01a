@@ -1,0 +1,21 @@
+/* html,
+body {
+  height: 100%;
+}
+
+.main {
+  height: 100vh;
+} */
+
+.contenedor {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.texto-principal {
+  font-size: calc(15px + 2vmin);
+}
