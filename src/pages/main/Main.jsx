@@ -10,10 +10,9 @@ const Main = () => {
   const navigate = useNavigate()
 
   // // Cambia el numero de segundos para redirigir a la pagina Blog
-  const [contador, setContador] = React.useState(10)
+  const [contador, setContador] = React.useState(5)
 
   React.useEffect(() => {
-    window.scrollTo(300, 500)
     // Decrementa el contador cada segundo
     const decremento = setTimeout(() => {
       setContador(contador - 1)
@@ -42,7 +41,7 @@ const Main = () => {
           <img
             src={decoRight}
             alt="right decoration"
-            style={{ width: '25%', alignSelf: 'flex-end' }}
+            style={{ width: '10%', alignSelf: 'flex-end' }}
           />
           <center>
             <img
@@ -58,7 +57,7 @@ const Main = () => {
             </span>
           </center>
 
-          <img src={decoLeft} alt="left decoration" style={{ width: '25%' }} />
+          <img src={decoLeft} alt="left decoration" style={{ width: '10%' }} />
         </div>
       </div>
     </div>
