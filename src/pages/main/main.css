@@ -19,3 +19,31 @@ body {
 .texto-principal {
   font-size: calc(15px + 2vmin);
 }
+
+.decorations {
+  width: 10%;
+}
+
+@media (max-width: 992px) {
+  .decorations {
+    width: 17%;
+  }
+}
+
+@media (max-width: 500px) {
+  .decorations {
+    width: 30%;
+  }
+}
+
+@media (max-width: 425px) {
+  .decorations {
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .decorations {
+    width: 28%;
+  }
+}

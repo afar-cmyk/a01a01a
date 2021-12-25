@@ -41,7 +41,8 @@ const Main = () => {
           <img
             src={decoRight}
             alt="right decoration"
-            style={{ width: '10%', alignSelf: 'flex-end' }}
+            className="decorations"
+            style={{ alignSelf: 'flex-end' }}
           />
           <center>
             <img
@@ -57,7 +58,7 @@ const Main = () => {
             </span>
           </center>
 
-          <img src={decoLeft} alt="left decoration" style={{ width: '10%' }} />
+          <img src={decoLeft} className="decorations" alt="left decoration" />
         </div>
       </div>
     </div>
