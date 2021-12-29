@@ -16,7 +16,7 @@ const Main = () => {
     // Decrementa el contador cada segundo
     const decremento = setTimeout(() => {
       setContador(contador - 1)
-    }, 1000)
+    }, 1000000)
 
     // Si el contador es igual a cero, se carga la pagina Blog
     if (contador === 0) {
@@ -45,12 +45,7 @@ const Main = () => {
             style={{ alignSelf: 'flex-end' }}
           />
           <center>
-            <img
-              id="logo"
-              src={logo}
-              alt="logo"
-              style={{ minWidth: '25vw', width: '30vw' }}
-            />
+            <img id="logo" src={logo} alt="logo" className="logo" />
             <span>
               <p className="texto-principal">
                 Será redirigido en {contador} segundos
