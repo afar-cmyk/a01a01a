@@ -16,7 +16,7 @@ const Main = () => {
     // Decrementa el contador cada segundo
     const decremento = setTimeout(() => {
       setContador(contador - 1)
-    }, 1000000)
+    }, 1000)
 
     // Si el contador es igual a cero, se carga la pagina Blog
     if (contador === 0) {
